@@ -1,0 +1,2 @@
+event_id,event_time,user_id,src_ip,preceding_failures
+586,2026-09-04T10:15:00+00:00,employee07,198.51.100.77,14

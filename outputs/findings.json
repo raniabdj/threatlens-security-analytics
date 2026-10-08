@@ -1,0 +1,86 @@
+{
+  "01_failed_login_bursts": [
+    {
+      "user_id": "employee07",
+      "src_ip": "198.51.100.77",
+      "hour_utc": "2026-09-04T10",
+      "failed_logins": 14
+    }
+  ],
+  "02_success_after_failures": [
+    {
+      "event_id": 586,
+      "event_time": "2026-09-04T10:15:00+00:00",
+      "user_id": "employee07",
+      "src_ip": "198.51.100.77",
+      "preceding_failures": 14
+    }
+  ],
+  "03_destination_outliers": [
+    {
+      "host": "workstation-09",
+      "destination_ip": "203.0.113.250",
+      "connections": 8
+    }
+  ],
+  "04_daily_metrics": [
+    {
+      "day_utc": "2026-09-01",
+      "total_events": 180,
+      "login_events": 98,
+      "failed_logins": 6,
+      "failure_rate_pct": 6.12
+    },
+    {
+      "day_utc": "2026-09-02",
+      "total_events": 167,
+      "login_events": 77,
+      "failed_logins": 3,
+      "failure_rate_pct": 3.9
+    },
+    {
+      "day_utc": "2026-09-03",
+      "total_events": 150,
+      "login_events": 86,
+      "failed_logins": 13,
+      "failure_rate_pct": 15.12
+    },
+    {
+      "day_utc": "2026-09-04",
+      "total_events": 197,
+      "login_events": 118,
+      "failed_logins": 23,
+      "failure_rate_pct": 19.49
+    },
+    {
+      "day_utc": "2026-09-05",
+      "total_events": 174,
+      "login_events": 97,
+      "failed_logins": 4,
+      "failure_rate_pct": 4.12
+    },
+    {
+      "day_utc": "2026-09-06",
+      "total_events": 157,
+      "login_events": 72,
+      "failed_logins": 6,
+      "failure_rate_pct": 8.33
+    },
+    {
+      "day_utc": "2026-09-07",
+      "total_events": 198,
+      "login_events": 112,
+      "failed_logins": 10,
+      "failure_rate_pct": 8.93
+    }
+  ],
+  "summary": {
+    "total_events": 1223,
+    "event_types": {
+      "login": 660,
+      "network": 237,
+      "process": 326
+    },
+    "note": "Detections are heuristics on synthetic data; not verified threats."
+  }
+}
